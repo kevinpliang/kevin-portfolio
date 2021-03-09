@@ -9,6 +9,7 @@ body {
 #header {
     margin-top:5%;
 }
+#header p:hover { color: gray; cursor: pointer;}
 #title {
     font-size:80px;
     width:100%;
@@ -35,27 +36,46 @@ body {
 #content {
     width:75%;
     margin:auto;
+    margin-bottom:5%;
     text-align:center;
 }
 #sketches {
-    visibility: visible;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     padding: 0 0 0 0;
 }
+#animations {
+    display: none;
+    flex-wrap: wrap;
+    padding: 0 0 0 0;
+}
+#about {
+    font-size:25px;
+    display:none;
+    width:100%;
+    text-align:center;
+    margin-top:40px;
 
+}
 .column {
     flex: 30%;
     max-width: 30%;
     padding: 0 0 0 0;
 }
-.column img {
+#sketches .column img {
     height:300px;
     width:300px;
     margin-top:40px;
-    vertical-align: middle;
+    vertical-align:middle;
 }
+#animations .column img {
+    height:168.75px;
+    width:300px;
+    margin-top:40px;
+    vertical-align:middle;
+}
+
 a:link { color: black; text-decoration:none;}
 a:visited { color: black; text-decoration:none;}
 a:hover { color: gray; text-decoration:none;}
