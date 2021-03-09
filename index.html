@@ -2,10 +2,7 @@
 <html>
 <head>
 	<title>The Promised Land</title>
-	<link rel="icon" type="image/png" href="images/quentin.png">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
-	<script>
-		
+	<link rel="icon" type="image/png" href="icon.png">
 	</script>
 	<style>	
 		@font-face {
@@ -14,52 +11,62 @@
         }
         body {
             font-family: Handwriting_b-Regular;
+            margin:0;
         }
         #header {
-            font-size: 60px;
-            text-align: center; 
-            height:90px;
+            margin-top:5%;
+        }
+        #title {
+            font-size:80px;
+            width:100%;
+            margin:auto;
+            text-align:center;
+        }
+        #title>p {
+            margin:0;
         }
         #strip {
             font-size:30px;
-            width: 50%;
-            height:0px;
-            text-align:center;
-            left: 0;
-            right: 0;            
-            margin: auto;
-            display:flex;
-            justify-content:center;
-            padding-left:80px;
-        }
-        .menu-button {
-            transform: translate(-50%,-50%);
+            width:40%;
             text-align:center;
             margin:auto;
-            float:left;
+            display:flex;
+        }
+        .menu-button {
+            margin:auto;
+            text-align:center;
+        }
+        .menu-button>p {
+            margin:0;
         }
         #gallery {
             float:left;
         }
+        a:link { color: black; }
+        a:visited { color: black; }
+        a:hover { color: gray; }
+        a:active { color: black; }
 
 	</style>
 </head>
 <body>
     <div id="header">
-	    <p>Kevin Liang</p>
-    </div>
-    <div id="strip">
-        <div class="menu-button">
-            <p>sketches</p>
+        <div id="title">
+            <p>Kevin Liang</p>
         </div>
-        <div class="menu-button">
-            <p>animations</p>
-        </div>
-        <div class="menu-button">
-            <p>webcomic</p>
-        </div>
-        <div class="menu-button">
-            <p>about</p>
+        <div id="strip">
+            <div class="menu-button">
+                <p>sketches</p>
+            </div>
+            <div class="menu-button">
+                <p>animations</p>
+            </div>
+            <div class="menu-button">
+                <p>webcomic</p>
+            </div>
+            <div class="menu-button">
+                <p>about</p>
+            </div>
         </div>
     </div>
     <div id="gallery">
