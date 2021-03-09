@@ -5,6 +5,7 @@
 body {
     font-family: Handwriting_b-Regular;
     margin:0;
+    overflow: scroll;
 }
 #header {
     margin-top:5%;
@@ -48,6 +49,7 @@ body {
 #animations {
     display: none;
     flex-wrap: wrap;
+    justify-content:center;
     padding: 0 0 0 0;
 }
 #about {
@@ -56,7 +58,6 @@ body {
     width:100%;
     text-align:center;
     margin-top:40px;
-
 }
 .column {
     flex: 30%;
